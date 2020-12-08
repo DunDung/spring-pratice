@@ -45,12 +45,12 @@ public class AopJojolduApplication implements CommandLineRunner {
 
     @GetMapping("/boards")
     public List<Board> getBoards() {
-        return boardService.getDataAll();
+        return boardService.getBoards();
     }
 
     @GetMapping("/users")
     public List<User> getUsers() {
-        return userService.getDataAll();
+        return userService.getUsers();
     }
 
 }
