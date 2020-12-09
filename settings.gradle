@@ -1,4 +1,3 @@
 rootProject.name = 'spring-pratice'
 include 'aop-jojoldu'
-include 'frog-book-spring-mvc-board'
 
