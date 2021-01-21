@@ -1,4 +1,4 @@
 rootProject.name = 'spring-pratice'
 include 'aop-jojoldu'
 include 'springapplicationcontext'
-
+include 'demospring51'
