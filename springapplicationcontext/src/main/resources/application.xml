@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--    <bean id="bookService"-->
+    <!--          class="com.dundung.springapplicationcontext.BookService">-->
+    <!--        <property name="bookRepository" ref="bookRepository"/>-->
+    <!--        &lt;!&ndash;        name은 setter Name이다. ref에는 bean의 id가 들어와야한다.&ndash;&gt;-->
+    <!--    </bean>-->
+
+    <!--    <bean id="bookRepository"-->
+    <!--          class="com.dundung.springapplicationcontext.BookRepository"/>-->
+    <!--위 방법은 일일이 등록하는 과정이 귀찮다. 그래서 나온것이 component scan-->
+    <context:component-scan base-package="com.dundung.springapplicationcontext"/>
+</beans>

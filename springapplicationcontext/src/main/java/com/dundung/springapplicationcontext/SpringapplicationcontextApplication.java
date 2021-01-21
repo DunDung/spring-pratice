@@ -1,11 +1,17 @@
 package com.dundung.springapplicationcontext;
 
-import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class SpringapplicationcontextApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringapplicationcontextApplication.class, args);
+        // 컴포넌트 스캔 없이 Configuration을 등록시킨거지
+        ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
+        String[] beanDefinitionNames = context.getBeanDefinitionNames();
+        System.out.println(Arrays.toString(beanDefinitionNames));
+        BookService bookService = (BookService) context.getBean("bookService");
+        System.out.println(bookService.bookRepository != null);
     }
 
 }
