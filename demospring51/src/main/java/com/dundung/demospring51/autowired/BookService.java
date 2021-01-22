@@ -1,4 +1,4 @@
-package com.dundung.demospring51;
+package com.dundung.demospring51.autowired;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

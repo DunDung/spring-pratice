@@ -1,4 +1,4 @@
-package com.dundung.demospring51;
+package com.dundung.demospring51.autowired;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -13,6 +13,6 @@ public class BookServiceRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        bookService.printBook();
+//        bookService.printBook();
     }
 }

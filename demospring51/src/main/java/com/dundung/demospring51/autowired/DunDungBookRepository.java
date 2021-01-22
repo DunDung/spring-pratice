@@ -1,4 +1,4 @@
-package com.dundung.demospring51;
+package com.dundung.demospring51.autowired;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
