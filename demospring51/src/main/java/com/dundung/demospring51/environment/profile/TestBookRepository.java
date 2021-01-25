@@ -1,4 +1,4 @@
-package com.dundung.demospring51.environment;
+package com.dundung.demospring51.environment.profile;
 
 import com.dundung.demospring51.autowired.BookRepository;
 import org.springframework.context.annotation.Profile;
