@@ -16,7 +16,7 @@ public class AppRunnerMessageSource implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        while (true) {
+//        while (true) {
             String koreanMessage = messageSource.getMessage("greeting", new String[]{"dundung"}, Locale.KOREA);
             String defaultMessage = messageSource.getMessage("greeting", new String[]{"dundung"}, Locale.getDefault());
             System.out.println("message source");
@@ -25,6 +25,6 @@ public class AppRunnerMessageSource implements ApplicationRunner {
             System.out.println(koreanMessage);
             System.out.println();
             Thread.sleep(1000);
-        }
+//        }
     }
 }
