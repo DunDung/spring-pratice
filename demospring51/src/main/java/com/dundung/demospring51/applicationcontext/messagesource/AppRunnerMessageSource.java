@@ -1,4 +1,4 @@
-package com.dundung.demospring51.messagesource;
+package com.dundung.demospring51.applicationcontext.messagesource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;

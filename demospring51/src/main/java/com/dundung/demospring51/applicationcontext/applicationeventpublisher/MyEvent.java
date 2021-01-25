@@ -1,4 +1,4 @@
-package com.dundung.demospring51.applicationeventpublisher;
+package com.dundung.demospring51.applicationcontext.applicationeventpublisher;
 
 public class MyEvent {
 

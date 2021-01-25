@@ -1,4 +1,4 @@
-package com.dundung.demospring51.beanscope;
+package com.dundung.demospring51.applicationcontext.beanscope;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

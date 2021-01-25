@@ -1,4 +1,4 @@
-package com.dundung.demospring51.autowired;
+package com.dundung.demospring51.applicationcontext.autowired;
 
 import org.springframework.stereotype.Repository;
 

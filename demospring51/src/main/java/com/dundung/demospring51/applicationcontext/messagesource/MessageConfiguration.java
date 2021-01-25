@@ -1,4 +1,4 @@
-package com.dundung.demospring51.messagesource;
+package com.dundung.demospring51.applicationcontext.messagesource;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

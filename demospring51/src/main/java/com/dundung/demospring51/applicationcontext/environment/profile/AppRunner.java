@@ -1,4 +1,4 @@
-package com.dundung.demospring51.environment.profile;
+package com.dundung.demospring51.applicationcontext.environment.profile;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
