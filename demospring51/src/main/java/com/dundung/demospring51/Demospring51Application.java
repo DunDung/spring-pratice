@@ -21,6 +21,12 @@ public class Demospring51Application {
 //                    }
 //                })
 //                .run();
+
+        // 서버가 실행 후 자동으로 꺼지는 설정, 웹 서버가 기동되지 않음
+//        SpringApplication app = new SpringApplication(Demospring51Application.class);
+//        app.setWebApplicationType(WebApplicationType.NONE);
+//        app.run(args);
+
         SpringApplication.run(Demospring51Application.class);
     }
 
