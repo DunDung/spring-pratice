@@ -1,4 +1,4 @@
-package com.dundung.demospringmvc;
+package com.dundung.demospringmvc.introduce;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

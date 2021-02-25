@@ -1,4 +1,4 @@
-package com.dundung.demospringmvc;
+package com.dundung.demospringmvc.introduce;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
