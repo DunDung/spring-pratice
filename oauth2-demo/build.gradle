@@ -1,3 +1,7 @@
 
 dependencies {
+    compile("org.springframework.boot:spring-boot-starter-security")
+    compile("org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.5.RELEASE")
+//    implementation 'org.springframework.security:spring-security-jwt'
+    testCompile("org.springframework.security:spring-security-test")
 }
