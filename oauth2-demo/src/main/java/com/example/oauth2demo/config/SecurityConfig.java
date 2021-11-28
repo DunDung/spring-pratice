@@ -60,7 +60,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 // 적용하면 안전하고 좋지만 쓰려면 항상 나한테 post 요청을 보내는 클라이언트에게 토큰값을 줘야한다.
                 .anonymous().disable()
                 .authorizeRequests()
-                .antMatchers("/api-docs/**").permitAll();
+                .antMatchers("/**").permitAll();
     }
 
     @Bean

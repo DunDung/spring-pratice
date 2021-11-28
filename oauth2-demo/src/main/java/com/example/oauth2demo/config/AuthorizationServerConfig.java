@@ -40,6 +40,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .inMemory()
                 .withClient("dundung-client") // app-name
                 .secret(passwordEncoder.encode("dundung-password")) // app-secret-key
+                .redirectUris("/users")
                 .authorizedGrantTypes("password", "authorization_code", "refresh_token", "implict")
                 .scopes("read", "write", "trust")
                 .accessTokenValiditySeconds(1 * 60 * 60) // 1시간
